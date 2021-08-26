@@ -1,0 +1,28 @@
+.home-container {
+  .hr-2 {
+    opacity: 1;
+    border: 1px solid #1d7cbf;
+  }
+
+  .star-icon {
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(148, 184, 224, 0.17);
+    padding: 5px;
+  }
+}
+
+.cards-container {
+  max-width: calc(368px * 3);
+  width: fit-content;
+  margin: 0 auto;
+  @media (max-width: 1200px) {
+    max-width: calc(368px * 2);
+  }
+  @media (max-width: 735px) {
+    max-width: calc(368px * 1);
+  }
+
+}
